@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+ img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+ }
+ .body-div{
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem .1rem #c4c4c4;
+
+ }
+ .head{
+display: flex;
+
+ }

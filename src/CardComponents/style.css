@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+
+
+}
+
+html {
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    /* font-family: 'Italianno', cursive; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #fff;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+.card {
+    display: block;
+    position: relative;
+    font-family: inherit;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+  
+    box-shadow: 0.1rem 0.1rem 0.1rem #fbf8f8, -0.1rem 0rem .1rem #fbf8f8;
+
+}
+
+.cards {
+    display: grid;
+   grid-gap: 1.5rem;
+    padding: 0.5rem;
+    margin: 16px 0px 45px;
+    padding: 0px 50px;
+
+
+}
+
+
+
+
+.card-img {
+    width: 100%;
+    height: 21rem;
+    border-radius: 11px;
+
+}
+
+.card-body {
+    display: grid;
+    font-size: 15px;
+    line-height: 19px;
+    box-sizing: border-box;
+
+}
+
+.card-title {
+    line-height: inherit;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: rgb(30, 27, 27);
+}
+
+
+
+.card-rel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconheart {
+    display: block;
+    position: absolute;
+ font-size: 1.7rem;
+
+    color: white;
+    left: 18.5rem;
+    bottom: 23rem;
+}
+
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 800px) {
+    .cards {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (min-width: 1250px) {
+    .cards {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+
+
+ /* avber start here  */
+
+
+ .section{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    box-shadow: 0.1rem 0.1rem 0.1rem #f0eaea, -0.1rem 0rem .1rem #fbf8f8;
+padding: 0px 50px;
+
+ }
+ .Nav-logo{
+   
+ }
+ .icon-logo{
+    display: inline-flex;
+    height:80px ;
+    color: #FF385c;
+    font-family: inherit;
+    font-size: 100%;
+position: relative;
+align-items: center;
+
+ }
+ .Nav-logo{
+font-size:2.3rem;
+padding-right: 3px;
+ }
+ .air{
+
+font-size:1.4rem ;
+font-weight: 700;
+padding-bottom: 4px;
+
+ }
+ .seardib1{
+
+    padding: 0 24px;
+    min-width: 348px;
+    
+ }
+ .serdib2{
+    text-align: left;
+    width: 100%;
+    visibility: visible;
+    display: inline-block;
+ }
+
+
+ .seardib3{
+    text-align: left;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid #dddddd;
+    align-items: center;
+    color:#222222;
+    display: inline-flex;
+    max-width: 100%;
+    vertical-align: middle;
+    
+ }
+ .btn{
+    background-color: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: -1px;
+
+ }
+.btn{
+    overflow: visible;
+    align-items: center;
+    display: flex;
+    height: 48px;
+    min-width: 0;
+    position: relative;
+
+}
+ .btn1{
+    padding-left: 8px;
+
+ }
+
+.btnCon{
+    color: #222222;
+    padding:0 16px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.gest{
+    color: #717171;
+    font-weight: 400;
+}
+.btnsear{
+    background-color: #FF385C;
+    margin: 7px 7px 7px 0;
+    border-radius: 50%;
+    padding: 10px;
+    color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+
+}
+.fasear{
+display: block;
+}
+
+.btnspn{
+    background-color: #DDDDDD;
+    height: 24px;
+    width: 1px;
+}
+
+.nav-home{
+    display: flex;
+    padding-right: ;
+    
+}
+.nav-brwsr{
+    margin-right: 8px;
+    display: flex;
+}
+.browser{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    position: relative;
+    white-space: nowrap;
+}
+.home{
+    color: #222222;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.firfox{
+    display: block;
+    height: 16px;
+    width: 16px;
+  font-size: 18px;
+
+}
+.menubar{
+    display: inline-flex;
+    height: 42px;
+    position: relative;
+    align-items: center;
+    color: #222222;
+    position: relative;
+    background: transparent;
+    margin: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 21px;
+    padding: 5px 5px 5px 12px;
+
+}
+
+
+.icon-pro{
+    margin-left: 12px;
+    height: 30px;
+    color: #717171;
+    position: relative;
+    width: 30px;
+    flex: 0 0 30px;
+    font-size: 1.7rem;
+    justify-content: center;
+
+}
+  /* avber end here  */

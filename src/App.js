@@ -1,18 +1,18 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Card from './CardComponents/Card';
-import Navbar from './NavComponents/Navbar';
+// import './App.css';
+// import Card from './CardComponents/Card';
+// import Navbar from './NavComponents/Navbar';
+import Counter from './component/counter';
 
 function App() {
-  return (
- <BrowserRouter>
- <Navbar />
- <Routes>
-  <Route path='/' element={<Card />}/>
- </Routes>
+  return ( <Counter />
+//  <BrowserRouter>
+//  <Navbar />
+//  <Routes>
+//   <Route path='/' element={<Card />}/>
+//  </Routes>
  
- </BrowserRouter>
+//  </BrowserRouter>
   );
 }
 
